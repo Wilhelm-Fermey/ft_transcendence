@@ -3,10 +3,22 @@ import Navbar from './navbar'
 
 function Home() {
   return (
-    <div>
+    <div className="">
         <Navbar />
-        <h1 className="text-center m-12 p-12 "> Here is the Home page !  </h1>
 
+      <div className="flex">
+
+          <div className='w-screen h-screen'>
+           <div className="w-3/4 h-screen text-center text-white bg-[#1e1e4e]">
+
+            <h1>  Hello World </h1>
+
+           </div>
+          </div>
+
+          <div className='right-0 fixed h-screen w-1/4 bg-gray-400'>ICI LA BARRE</div> 
+
+      </div>
 
     </div>
   )

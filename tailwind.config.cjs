@@ -2,10 +2,11 @@ module.exports = {
   content:["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontfamily: {
-        'pop': ['Poppins', 'sans-serif'],
+      fontFamily: {
+        Dance: "'Dancing Script', serif",
+        Bungee: "'Bungee Shade', serif",
       }
+    }
     },
-  },
   plugins: [],
 }
