@@ -14,4 +14,8 @@
         text-lg border-2 rounded-3xl border-rose-600 
     }
 
+    .play-button {
+        @apply p-6 text-center text-white font-bold font-mono border-double 
+        border-4 rounded-xl border-rose-600 hover:bg-rose-600 transition-all
+    }
 }

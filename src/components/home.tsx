@@ -1,27 +1,24 @@
 import React from 'react'
 import Navbar from './navbar'
+import {Link} from 'react-router-dom'
+import SideBar from './sidebar'
 
 function Home() {
   return (
-    <div className="">
-        <Navbar />
+    <div className="  bg-[#1e1e4e]">
+      <Navbar />
+      <SideBar />  
 
-      <div className="flex">
-
-          <div className='w-screen h-screen'>
-           <div className="w-3/4 h-screen text-center text-white bg-[#1e1e4e]">
-
-            <h1>  Hello World </h1>
-
-           </div>
+        <span className=" h-screen w-3/4 items-center justify-center flex">
+          <div className="  " >
+            <img src='/pong.png' width='500px'/>
           </div>
-
-          <div className='right-0 fixed h-screen w-1/4 bg-gray-400'>ICI LA BARRE</div> 
-
-      </div>
+          <div className="" >
+            <Link to="/Game" className="play-button">CLICK TO PLAY !</Link>
+          </div>
+        </span>
 
     </div>
   )
 }
-
 export default Home
