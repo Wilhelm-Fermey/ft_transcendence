@@ -17,9 +17,9 @@ function SideBar() {
             <img src='/profile.png' width='120px' className="text-center p-2 rounded-full " />
         </div>
 
-        <p className={` ${!open && "scale-0"} shadow rounded-lg shadow-gray-300 font-Dance text-3xl p-2 m-2 text-center font-bold `} >Name</p>
+        <p className={` ${!open && "scale-0"} bg-white shadow rounded-lg shadow-gray-300 font-Dance text-3xl p-2 m-2 text-center font-bold `} >Name</p>
 
-        <div className={`${!open && "scale-0"} m-2 p-2 font-mono shadow rounded-lg shadow-gray-300 `} >
+        <div className={`${!open && "scale-0"} bg-white m-2 p-2 font-mono shadow rounded-lg shadow-gray-300 `} >
             <p>Matchs played : </p>
             <p>Victories     : </p>
             <p>Victorie rate : </p>

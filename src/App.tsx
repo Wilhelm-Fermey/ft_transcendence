@@ -1,6 +1,6 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Chat from './components/chat';
+import Chat from './components/Chat/chat';
 import Firstpage from "./components/firstpage"
 import Friends from './components/friends';
 import Game from './components/game';
